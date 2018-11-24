@@ -2,293 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="999f0b68-0b37-43e7-8f22-0ade18e5c601" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.env" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/admin-panel.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documentation/css/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documentation/css/documentation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documentation/css/light-bootstrap-dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documentation/img/apple-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documentation/img/back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documentation/img/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documentation/img/tim-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documentation/tutorial-components.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/apple-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/sidebar-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/apple-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/sidebar-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/css/animate.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/css/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/css/pe-icon-7-stroke.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/Pe-icon-7-stroke.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/Pe-icon-7-stroke.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/Pe-icon-7-stroke.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/Pe-icon-7-stroke.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/default-avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/faces/face-0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/faces/face-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/faces/face-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/faces/face-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/faces/face-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/faces/face-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/faces/face-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/faces/face-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/faces/tim_vector.jpe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/loading-bubbles.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/new_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/reactlogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/sidebar-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/sidebar-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/sidebar-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/sidebar-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/sidebar-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/tim_80x80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_alerts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_cards.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_chartist.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_checkbox-radio-switch.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_footers.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_inputs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_misc.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_navbars.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_responsive.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_sidebar-and-main-panel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/mixins/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/mixins/_cards.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/mixins/_chartist.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/mixins/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/mixins/_inputs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/mixins/_labels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/mixins/_morphing-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/mixins/_navbars.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/mixins/_social-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/mixins/_tabs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/mixins/_transparency.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/lbd/mixins/_vendor-prefixes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/light-bootstrap-dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/light-bootstrap-dashboard.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/TokenStorage/Exception/TokenGetException.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/TokenStorage/Exception/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/TokenStorage/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Admin/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Admin/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Admin/sagas/driverAdd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Admin/sagas/driverDelete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Admin/sagas/driverEdit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Admin/sagas/getCarsList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Admin/sagas/getDriverInfo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Admin/sagas/getDriversList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Admin/sagas/getRows.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Admin/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Exception/AccessDeniedException.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Exception/BadRequestException.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Exception/ClientException.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Exception/Exception.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Exception/NotFoundException.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Exception/ServerException.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Exception/TimeOutException.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Exception/ValidationException.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Exception/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Announcement/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Announcement/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Announcement/sagas/create.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Announcement/sagas/delete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Announcement/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Announcement/sagas/select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Announcement/sagas/update.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Announcement/sagas/view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/Scan/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/Scan/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/Scan/sagas/create.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/Scan/sagas/delete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/Scan/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/Scan/sagas/select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/Scan/sagas/view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/sagas/create.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/sagas/delete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/sagas/expired.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/sagas/hot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/sagas/select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/Code/sagas/view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/sagas/active.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/sagas/close.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/sagas/create.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/sagas/delete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/sagas/select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/sagas/update.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Deal/sagas/view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Gallery/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Gallery/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Gallery/sagas/changeOrder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Gallery/sagas/delete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Gallery/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Gallery/sagas/setMain.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Gallery/sagas/upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Logo/Resources/default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Logo/Resources/default.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Logo/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Logo/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Logo/sagas/change.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Logo/sagas/delete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Logo/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Search/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Search/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Search/sagas/applyFilters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Search/sagas/countQueryTag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Search/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Search/sagas/report.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Search/sagas/select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Search/sagas/top.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Search/sagas/view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Survey/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Survey/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Survey/sagas/close.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Survey/sagas/create.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Survey/sagas/delete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Survey/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Survey/sagas/select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Survey/sagas/update.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Survey/sagas/vote.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Tag/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Tag/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Tag/sagas/add.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Tag/sagas/delete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Tag/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Tag/sagas/select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/Tag/sagas/view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/change.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/changeActive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/changeDelivery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/changeEmail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/changeFacilities.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/changeLocation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/changeName.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/changePayments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/changePhones.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/changeQualities.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/changeSchedule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/changeSite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/changeType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/create.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/get.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/getAcceptedPayments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/getCategories.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/getFacilities.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/getQualities.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/getUserMerchants.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/getWorkingdDays.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/posts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/rateTags.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/setAcceptedPayments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/setFacilities.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/setQualities.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/Merchant/sagas/setWorkingDays.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Agreement/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Agreement/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Agreement/sagas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Avatar/Resources/default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Avatar/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Avatar/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Avatar/sagas/change.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Avatar/sagas/delete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Avatar/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Pal/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Pal/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Pal/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Pal/sagas/notifyChange.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Pal/sagas/pal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Pal/sagas/select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/Pal/sagas/unpal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/sagas/changeStatus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/sagas/changeUsername.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/sagas/generalBadge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/User/sagas/setFcmToken.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/createRequest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/createStore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/reducers/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/reducers/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/sagas/apiSagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/sagas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Card/Card.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Card/CreateNewCar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/CustomButton/CustomButton.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/CustomCheckbox/CustomCheckbox.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/CustomRadio/CustomRadio.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/FormInputs/FormInputs.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/StatsCard/StatsCard.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Tasks/Tasks.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/UserCard/UserCard.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/layouts/Dashboard/Dashboard.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/dashboard.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/index.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/variables/Variables.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Cars/Cars.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Cars/reducer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Driver/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Driver/Driver.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Driver/RenderFields.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Driver/reducer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/DriverAdd/DriverAdd.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/DriverAdd/reducer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Drivers/Drivers.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Drivers/NewDriver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Drivers/reducer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Icons/Icons.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Maps/Maps.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Notifications/Notifications.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/TableList/TableList.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/TableList/reducer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Typography/Typography.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/Upgrade/Upgrade.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/UserProfile/UserProfile.jsx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apple-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sidebar-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/media/Pe-icon-7-stroke.01798bc1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/media/Pe-icon-7-stroke.71394c0c.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/media/Pe-icon-7-stroke.b38ef310.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/media/face-3.ce7a6b79.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/media/glyphicons-halflings-regular.448c34a5.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/media/glyphicons-halflings-regular.e18bbf61.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/media/glyphicons-halflings-regular.f4769f9b.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/media/glyphicons-halflings-regular.fa277232.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/media/reactlogo.9b864b36.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/media/sidebar-3.34535b95.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/build.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset-manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-worker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/main.cc775633.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/main.cc775633.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/main.54c3cd85.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/main.54c3cd85.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/media/Pe-icon-7-stroke.c45f7de0.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/media/glyphicons-halflings-regular.89889688.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -373,12 +110,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543042369285</updated>
-      <workItem from="1543042370648" duration="8000" />
+      <workItem from="1543042370648" duration="77000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <created>1543042395959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543042395959</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8000" />
+    <option name="totallyTimeSpent" value="77000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -406,6 +151,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
