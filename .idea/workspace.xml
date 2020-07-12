@@ -2,32 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59764add-f9ea-4e78-9924-3ce51dd0e3a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../components/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../components/jumbotron.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/jumbotron.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../components/navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../components/picture.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/picture.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pages/_app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/_app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pages/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/about.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pages/contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/css/pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/../static/css/pages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/DSC_6082.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/pics/DSC_6082.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/DSC_6084.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/pics/DSC_6084.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/David Latuno Resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/David Profile Picture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/FaceYourself.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/backend-hangman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/bamazon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/bash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/bootstrap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/csharp-copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/csharp-delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/handlebars.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/jquery.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/letterD.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../static/pics/letterD.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/mysql.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/pics/sdbeer.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +19,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
@@ -52,7 +36,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -84,12 +78,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594581293334</updated>
-      <workItem from="1594581294528" duration="192000" />
+      <workItem from="1594581294528" duration="1336000" />
     </task>
+    <task id="LOCAL-00001" summary="....">
+      <created>1594581900636</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594581900636</updated>
+    </task>
+    <task id="LOCAL-00002" summary="....">
+      <created>1594582097534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594582097534</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192000" />
+    <option name="totallyTimeSpent" value="1336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -99,7 +108,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -115,5 +124,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="...." />
+    <option name="LAST_COMMIT_MESSAGE" value="...." />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
