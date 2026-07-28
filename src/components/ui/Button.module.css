@@ -1,0 +1,41 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font: inherit;
+  font-size: 14.5px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition:
+    background 0.18s,
+    border-color 0.18s,
+    transform 0.12s;
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.solid {
+  background: var(--blue);
+  color: var(--paper);
+}
+.solid:hover {
+  background: var(--blue-ink);
+}
+
+.line {
+  background: transparent;
+  border-color: var(--rule);
+  color: var(--ink);
+}
+.line:hover {
+  border-color: var(--ink);
+}

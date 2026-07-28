@@ -1,0 +1,79 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  border-radius: 12px;
+  border: 1px solid var(--rule);
+  background: var(--card);
+  box-shadow: var(--shadow);
+  transition:
+    border-color 0.2s,
+    transform 0.2s;
+}
+.card:hover {
+  border-color: color-mix(in srgb, var(--blue) 45%, var(--rule));
+  transform: translateY(-2px);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 20px;
+  height: 100%;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.top b {
+  display: block;
+  font-family: var(--f-serif);
+  font-size: 17px;
+  font-weight: 600;
+}
+.top span {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin-top: 2px;
+}
+
+.inner p {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--dim);
+  line-height: 1.55;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+  margin-top: auto;
+  padding-top: 4px;
+}
+.links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--blue);
+}
+.links a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

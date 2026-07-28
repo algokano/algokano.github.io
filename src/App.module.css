@@ -1,0 +1,26 @@
+.frame {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: clamp(20px, 4vw, 44px);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 390px;
+  gap: clamp(36px, 5vw, 84px);
+}
+
+.content {
+  min-width: 0;
+  padding-bottom: 60px;
+}
+
+.content section {
+  padding-top: clamp(64px, 9vh, 104px);
+}
+.content section:first-of-type {
+  padding-top: 0;
+}
+
+@media (max-width: 1020px) {
+  .frame {
+    grid-template-columns: 1fr;
+  }
+}

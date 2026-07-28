@@ -1,0 +1,137 @@
+/* ============================================================
+   Design tokens — "Paper & Device"
+   Printed-résumé aesthetic: warm paper ground, serif display,
+   hairline rules, one trust blue. The phone is the only dark
+   object on the page.
+   ============================================================ */
+:root {
+  --paper: #f6f5f1;
+  --card: #ffffff;
+  --ink: #14181f;
+  --dim: #4e555f;
+  --faint: #8a8f98;
+  --rule: #dddad2;
+  --rule-2: #ebe9e3;
+  --blue: #1a56c4;
+  --blue-ink: #123c8a;
+  --green: #1e7f4f;
+  --danger: #c0392b;
+  --shadow: 0 1px 2px rgba(20, 24, 31, 0.05), 0 8px 24px -18px rgba(20, 24, 31, 0.25);
+
+  /* Phone (in-device) tokens — always dark, it's a device screen. */
+  --os-bg: #101319;
+  --os-card: #1a1e27;
+  --os-card-hover: #232837;
+  --os-line: #262b36;
+  --os-line-hover: #333a49;
+  --os-text: #f0f1f4;
+  --os-dim: #9ba1ac;
+  --os-blue: #4c8dff;
+  --os-green: #4cc38a;
+
+  --f-serif: "New York", ui-serif, Georgia, "Times New Roman", serif;
+  --f-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, system-ui,
+    sans-serif;
+  --f-mono: ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #12151c;
+    --card: #1a1e27;
+    --ink: #edeef2;
+    --dim: #a6abb5;
+    --faint: #6e737e;
+    --rule: #2a2f3a;
+    --rule-2: #22262f;
+    --blue: #6b9fff;
+    --blue-ink: #a9c6ff;
+    --green: #4cc38a;
+    --danger: #ff8a7a;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px -20px rgba(0, 0, 0, 0.7);
+  }
+}
+
+/* ============================================================
+   Base
+   ============================================================ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--f-sans);
+  font-size: 16px;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--f-serif);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.08;
+  margin: 0;
+  text-wrap: balance;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+/* ============================================================
+   Shared utilities
+   ============================================================ */
+
+/* Scroll-reveal: elements start hidden, .in fades them up. */
+.rise {
+  opacity: 0;
+  translate: 0 16px;
+  transition:
+    opacity 0.55s ease,
+    translate 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.rise.in {
+  opacity: 1;
+  translate: 0 0;
+}
+
+/* Blue pulse when the phone navigates to a page element. */
+@keyframes card-flash {
+  0% {
+    border-color: var(--blue);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--blue) 22%, transparent);
+  }
+  100% {
+    border-color: var(--rule);
+    box-shadow: var(--shadow);
+  }
+}
+.flash {
+  animation: card-flash 1.4s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+  .rise {
+    opacity: 1;
+    translate: 0 0;
+  }
+}

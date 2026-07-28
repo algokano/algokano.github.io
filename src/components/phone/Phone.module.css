@@ -1,0 +1,116 @@
+/* ============================================================
+   Device shell — the one dark object on the paper page.
+   ============================================================ */
+.rail {
+  position: relative;
+}
+@media (max-width: 1020px) {
+  .rail {
+    display: none;
+  }
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  display: grid;
+  place-items: center;
+}
+
+.device {
+  width: min(330px, 24vw);
+  min-width: 296px;
+  aspect-ratio: 9 / 19.2;
+  border-radius: 50px;
+  padding: 10px;
+  background: linear-gradient(165deg, #3a3f4e, #1b1e28 28%, #0d0f16 90%);
+  box-shadow:
+    0 40px 80px -32px rgba(20, 24, 31, 0.45),
+    0 0 0 1px rgba(255, 255, 255, 0.06) inset;
+  transition: transform 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 41px;
+  overflow: hidden;
+  background: var(--os-bg);
+  color: var(--os-text);
+}
+
+.statusBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 24px 6px;
+  font-size: 12.5px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.carrier {
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  opacity: 0.75;
+}
+.statusRight {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.battery {
+  width: 21px;
+  height: 11px;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  padding: 1.5px;
+  position: relative;
+  opacity: 0.9;
+}
+.battery::after {
+  content: "";
+  position: absolute;
+  right: -3px;
+  top: 2.8px;
+  width: 1.8px;
+  height: 4px;
+  background: currentColor;
+}
+.battery i {
+  display: block;
+  height: 100%;
+  width: 76%;
+  background: var(--os-green);
+  border-radius: 1px;
+}
+
+/* Screen switching */
+.screenView {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 52px 18px 20px;
+  opacity: 0;
+  transform: translateY(12px);
+  visibility: hidden;
+  transition:
+    opacity 0.38s ease,
+    transform 0.42s cubic-bezier(0.2, 1, 0.3, 1),
+    visibility 0s 0.42s;
+}
+.screenView.on {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+  transition:
+    opacity 0.38s ease 0.08s,
+    transform 0.42s cubic-bezier(0.2, 1, 0.3, 1) 0.08s;
+}

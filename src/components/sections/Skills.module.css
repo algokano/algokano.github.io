@@ -1,0 +1,44 @@
+.rows {
+  border-top: 1px solid var(--rule);
+  margin-top: 26px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 130px minmax(0, 1fr);
+  gap: 18px;
+  padding: 15px 4px;
+  border-bottom: 1px solid var(--rule);
+  align-items: baseline;
+}
+@media (max-width: 560px) {
+  .row {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+}
+
+.row b {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--faint);
+  font-weight: 600;
+}
+
+.row > div {
+  font-size: 14.5px;
+  color: var(--dim);
+  line-height: 1.7;
+}
+
+.hot {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.sep {
+  color: var(--rule);
+  padding-inline: 7px;
+}

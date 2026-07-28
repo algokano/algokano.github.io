@@ -1,0 +1,326 @@
+/* ============================================================
+   Shared styles for all phone screens.
+   ============================================================ */
+
+.head {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 12px;
+  color: var(--os-text);
+}
+
+/* ---- Lock screen ---- */
+.lock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 66px;
+}
+.lockDate {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--os-dim);
+}
+.lockTime {
+  font-size: 58px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  font-variant-numeric: tabular-nums;
+}
+.notifStack {
+  width: 100%;
+  margin-top: 24px;
+}
+.notif {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  padding: 11px 13px;
+  border-radius: 15px;
+  background: var(--os-card);
+  border: 1px solid var(--os-line);
+  margin-top: 10px;
+  font: inherit;
+  color: var(--os-text);
+  cursor: pointer;
+  animation: notifIn 0.5s cubic-bezier(0.2, 1.15, 0.35, 1) backwards;
+  transition:
+    transform 0.15s cubic-bezier(0.2, 1.2, 0.4, 1),
+    background 0.18s,
+    border-color 0.18s;
+}
+.notif:hover {
+  background: var(--os-card-hover);
+  border-color: var(--os-line-hover);
+}
+.notif:active {
+  transform: scale(0.97);
+}
+@keyframes notifIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+.notifIcon {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 26%;
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  line-height: 1;
+}
+.notifBody {
+  flex: 1;
+  min-width: 0;
+}
+.notifBody b {
+  display: block;
+  font-size: 12px;
+}
+.notifBody span {
+  display: block;
+  font-size: 11px;
+  color: var(--os-dim);
+  line-height: 1.35;
+}
+
+/* ---- Projects screen ---- */
+.spotlight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 20px 14px;
+  border-radius: 18px;
+  background: var(--os-card);
+  border: 1px solid var(--os-line);
+  font: inherit;
+  color: var(--os-text);
+  cursor: pointer;
+  transition:
+    transform 0.15s cubic-bezier(0.2, 1.2, 0.4, 1),
+    background 0.18s,
+    border-color 0.18s;
+}
+.spotlight:hover {
+  background: var(--os-card-hover);
+  border-color: var(--os-line-hover);
+}
+.spotlight:active {
+  transform: scale(0.97);
+}
+.spotlight b {
+  font-size: 16px;
+  margin-top: 11px;
+}
+.spotCat {
+  font-size: 10px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--os-dim);
+  margin-top: 3px;
+}
+.spotlight p {
+  font-size: 11.5px;
+  color: var(--os-dim);
+  line-height: 1.5;
+  margin: 9px 0 0;
+}
+
+.appGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px 8px;
+  margin-top: 15px;
+}
+.cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  border: 0;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: var(--os-dim);
+  cursor: pointer;
+}
+.cell > :first-child {
+  opacity: 0.5;
+  transition: 0.22s;
+}
+.cell:hover > :first-child {
+  opacity: 1;
+  transform: scale(1.08);
+}
+.cell:active > :first-child {
+  transform: scale(0.92);
+}
+.cell.hot > :first-child {
+  opacity: 1;
+  transform: scale(1.12);
+  box-shadow: 0 0 0 2px var(--os-blue);
+}
+.cell small {
+  font-size: 8.5px;
+}
+
+/* ---- List rows (career / skills) ---- */
+.rows {
+  display: grid;
+  gap: 8px;
+}
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--os-card);
+  border: 1px solid var(--os-line);
+  font: inherit;
+  color: var(--os-text);
+  cursor: pointer;
+  transition:
+    transform 0.15s cubic-bezier(0.2, 1.2, 0.4, 1),
+    background 0.18s,
+    border-color 0.18s;
+}
+.row:hover {
+  background: var(--os-card-hover);
+  border-color: var(--os-line-hover);
+}
+.row:active {
+  transform: scale(0.97);
+}
+.dot {
+  flex: none;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4a5262;
+}
+.row.now .dot {
+  background: var(--os-green);
+}
+.rowBody {
+  flex: 1;
+  min-width: 0;
+}
+.rowBody b {
+  display: block;
+  font-size: 12.5px;
+}
+.rowBody span {
+  display: block;
+  font-size: 10.5px;
+  color: var(--os-dim);
+}
+.year {
+  margin-left: auto;
+  font-family: var(--f-mono);
+  font-size: 9.5px;
+  color: var(--os-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Chat screen ---- */
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-bottom: 4px;
+}
+.chatHead {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--os-line);
+  margin-bottom: 10px;
+}
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--os-blue);
+  display: grid;
+  place-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+}
+.chatMeta b {
+  font-size: 13.5px;
+  display: block;
+}
+.chatMeta span {
+  font-size: 10px;
+  color: var(--os-dim);
+  display: block;
+}
+.thread {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.bubble {
+  max-width: 85%;
+  padding: 8px 12px;
+  border-radius: 14px;
+  font-size: 12px;
+  line-height: 1.4;
+  animation: bubbleIn 0.32s cubic-bezier(0.2, 1.15, 0.35, 1) backwards;
+  word-break: break-word;
+}
+@keyframes bubbleIn {
+  from {
+    opacity: 0;
+    transform: translateY(9px);
+  }
+}
+.them {
+  align-self: flex-start;
+  background: var(--os-card);
+  border: 1px solid var(--os-line);
+  border-bottom-left-radius: 5px;
+}
+.me {
+  align-self: flex-end;
+  background: var(--os-blue);
+  color: #fff;
+  border-bottom-right-radius: 5px;
+}
+.ghost {
+  opacity: 0.55;
+}
+.sys {
+  align-self: center;
+  background: none;
+  color: var(--os-dim);
+  font-size: 10px;
+  padding: 2px;
+}
+.fieldTag {
+  font-family: var(--f-mono);
+  font-size: 8.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  display: block;
+  margin-bottom: 2px;
+}

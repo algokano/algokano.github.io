@@ -1,0 +1,58 @@
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--rule);
+}
+
+.inner {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 14px clamp(20px, 4vw, 44px);
+  display: flex;
+  align-items: baseline;
+  gap: 26px;
+}
+
+.wordmark {
+  font-family: var(--f-serif);
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+.wordmark i {
+  font-style: normal;
+  color: var(--blue);
+}
+
+.links {
+  margin-left: auto;
+  display: flex;
+  gap: 22px;
+}
+.links a {
+  font-size: 13.5px;
+  color: var(--dim);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+.links a:hover {
+  color: var(--ink);
+}
+.links a.on {
+  color: var(--blue);
+}
+.links .write {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .links a:not(.write) {
+    display: none;
+  }
+}

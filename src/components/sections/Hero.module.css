@@ -1,0 +1,128 @@
+.hero {
+  min-height: calc(88svh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.avail {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: 20px;
+}
+.avail::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--green);
+}
+
+.headline {
+  font-size: clamp(40px, 5.8vw, 64px);
+  margin-bottom: 20px;
+}
+.headline em {
+  font-style: italic;
+  color: var(--blue);
+}
+
+.lede {
+  color: var(--dim);
+  font-size: clamp(15.5px, 1.6vw, 17.5px);
+  max-width: 54ch;
+  margin: 0 0 28px;
+}
+.lede strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.ctaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+/* Fact strip — hairline résumé table. */
+.facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-block: 1px solid var(--rule);
+}
+.fact {
+  padding: 16px 18px 16px 0;
+  border-right: 1px solid var(--rule-2);
+}
+.fact:last-child {
+  border-right: 0;
+}
+.fact + .fact {
+  padding-left: 18px;
+}
+.fact b {
+  display: block;
+  font-family: var(--f-serif);
+  font-size: clamp(21px, 2.4vw, 27px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.fact span {
+  font-size: 12px;
+  color: var(--faint);
+}
+@media (max-width: 640px) {
+  .facts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fact:nth-child(2n) {
+    border-right: 0;
+  }
+  .fact:nth-child(3) {
+    padding-left: 0;
+    border-right: 1px solid var(--rule-2);
+  }
+}
+
+.socRow {
+  display: flex;
+  gap: 18px;
+  margin-top: 24px;
+}
+.soc {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  color: var(--dim);
+  text-decoration: none;
+}
+.soc:hover {
+  color: var(--blue);
+}
+
+.heroMini {
+  display: none;
+}
+@media (max-width: 1020px) {
+  .heroMini {
+    display: block;
+    margin: 26px 0 0;
+    font-family: var(--f-mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--faint);
+  }
+}
